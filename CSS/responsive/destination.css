@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .our-page .photos img {
+        height: 340px;
+    }
+}
+@media (max-width: 500px) {
+    .our-page .photos img {
+        height: 360px;
+    }
+}

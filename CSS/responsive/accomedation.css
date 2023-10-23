@@ -1,0 +1,14 @@
+@media (max-width: 1024px) {
+    .posts .post .post-img-data h3 {
+        font-size: 18px;
+    }
+    .posts .post .post-img-data p {
+        font-size: 30px;
+    }
+    .posts .post-data {
+        width: 100%;
+    }
+    .posts .post-data h2 {
+        font-size: 30px;
+    }
+}

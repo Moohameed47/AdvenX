@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .our-page .header-data::after {
+        font-size: 70px;
+    }
+}

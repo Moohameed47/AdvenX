@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .categories .col:nth-child(5) {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .categories .col:nth-child(4) {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .categories .col:nth-child(3) {
+        display: none;
+    }
+    header .navbar img {
+        width: 100px !important;
+    }
+    .home .data {
+        margin-top: -15px;
+    }
+}

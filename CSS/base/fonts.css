@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Mansalva-400";
+    src: url(../fonts/Mansalva/Mansalva-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat-100";
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+}
+@font-face {
+    font-family: "Montserrat-200";
+    src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "Montserrat-300";
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: "Montserrat-400";
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat-500";
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat-600";
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-700";
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-800";
+    src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-900";
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: "Palanquin-500";
+    src: url(../fonts/Palanquin_Dark/PalanquinDark-Medium.ttf);
+}
+@font-face {
+    font-family: "Palanquin-400";
+    src: url(../fonts/Palanquin_Dark/PalanquinDark-Regular.ttf);
+}
+@font-face {
+    font-family: "Palanquin-600";
+    src: url(../fonts/Palanquin_Dark/PalanquinDark-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Palanquin-700";
+    src: url(../fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
+}

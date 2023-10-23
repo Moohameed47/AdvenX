@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    .home.main-sec .data h1 {
+        font-size: 32px;
+    }
+    .home.main-sec .data h3 {
+        font-size: 58px;
+        width: 100%;
+    }
+    .home.main-sec .data .button {
+        margin-top: 20px;
+    }
+    .top-dist {
+        padding: 50px 0;
+    }
+    .branches .branch-data {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .branches .branch-data p {
+        padding: 0;
+    }
+    .our-page .header-data h2 {
+        margin: auto;
+    }
+    .our-page * {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .home {
+        height: 90vh;
+    }
+    .our-page .header-data h2 {
+        margin: auto;
+    }
+}
+@media (max-width: 426px) {
+    .our-page .header-data h2 {
+        width: 100%;
+        margin: 0px;
+        font-size: 22px;
+    }
+    .home {
+        height: 90.5vh;
+    }
+    .home.main-sec .data h3 {
+        font-size: 20px;
+    }
+    .our-page .header-data h2 {
+        margin: auto;
+    }
+}

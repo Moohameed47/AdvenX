@@ -1,0 +1,128 @@
+.main-sec {
+    background: url(../../images/Thumb-Slider-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 105vh;
+}
+.home.main-sec .data .button {
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    margin-top: 75px;
+}
+.home.main-sec .data h1 {
+    font-family: "Mansalva-400";
+    font-size: 44px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.home.main-sec .data h3 {
+    font-family: "Montserrat-900";
+    font-size: 72px;
+    width: 80%;
+    margin: auto;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.icons .icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px solid var(--black);
+}
+.icons .icon i {
+    font-size: 18px;
+    text-align: center;
+}
+.top-dist img {
+    border-radius: 100px;
+    height: 125px;
+}
+.top-dist p {
+    font-size: 26px;
+    font-family: "Montserrat-600";
+    line-height: 1.2;
+    color: var(--black);
+}
+.index.our-page .header-data::after {
+    content: "";
+}
+.travel {
+    background: url(../../images/map-bg.png);
+    background-position: center center;
+    background-size: contain;
+    padding-top: 50px;
+}
+.products {
+    background: transparent;
+}
+.social .social-img img {
+    mask-image: url(../../images/instagram-mask-image.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask-image: url(../../images/instagram-mask-image.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+.explore-world .top-dist img {
+    height: 375px;
+    width: 240px;
+    border-radius: 150px;
+}
+.explore-sec {
+    padding: 100px 0;
+    background: var(--light-white);
+    mask-image: url(../../images/bg-mask-1-2560.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask-image: url(../../images/bg-mask-1-2560.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+.explore-sec .item {
+    padding: 50px;
+    padding-right: 41px;
+}
+.explore-sec .item .data {
+    padding-left: 27px;
+}
+.explore-sec .item .data h3 {
+    font-family: "Palanquin-700";
+    font-size: 26px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.explore-sec .item .data p {
+    font-size: 16px;
+    font-family: "Montserrat-400";
+    color: var(--light-gray);
+}
+.explore-index {
+    margin-top: -100px;
+}
+.places .card {
+    padding: 20px 0;
+}
+.places .card-img {
+    background: var(--light-white);
+    mask-image: url(../../images/instagram-mask-image.png);
+    mask-position: top center;
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask-image: url(../../images/instagram-mask-image.png);
+    -webkit-mask-position: top center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+.branches .branch-data {
+    text-align: start;
+}
+.our-page .header-data h2 {
+    margin: auto;
+}

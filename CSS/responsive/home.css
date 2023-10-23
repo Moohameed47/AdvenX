@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .home {
+        height: 36.5vh;
+    }
+    .home .data {
+        margin-top: 85px;
+    }
+    .home .data h1 {
+        font-size: 35px;
+    }
+    .home .data h3 {
+        padding-top: 10px;
+    }
+}

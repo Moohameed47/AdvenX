@@ -1,0 +1,151 @@
+.product {
+    padding: 100px 0;
+}
+.product .swap-img {
+    padding: 0 15px;
+}
+.product .swap-img img {
+    margin: 5px 0;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+.product .swap-img:first-child img {
+    margin-top: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.product .item-data h2 {
+    font-size: 30px;
+    font-family: "Palanquin-700";
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    color: var(--black);
+    transition: all 0.5s;
+}
+.product p {
+    font-size: 18px;
+    font-family: "Montserrat-500";
+}
+.product p span {
+    font-family: "Montserrat-200";
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.product .item-icon i {
+    color: var(--light-orange);
+}
+.product .item-icon i:last-child {
+    color: var(--light-gray);
+    text-decoration: none;
+    font-family: "Montserrat-400";
+}
+.product .item-description p {
+    font-size: 16px;
+    color: var(--light-gray);
+    font-family: "Montserrat-400";
+    line-height: 1.875;
+}
+.product button {
+    text-align: center;
+    background: var(--light-orange);
+    border: none;
+    color: var(--white);
+    padding: 15px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.product button:hover {
+    background: var(--black);
+}
+.product button.input {
+    background: var(--white);
+    color: var(--light-gray);
+    width: 50px;
+    height: 50px;
+    margin: 0 -3px;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.product .prod-data .item-body p {
+    font-size: 16px;
+    color: var(--light-gray);
+    font-family: "Montserrat-400";
+    margin-bottom: 20px;
+}
+.product .prod-data .item-body p i,
+.product .prod-data .item-body p span {
+    color: var(--light-orange);
+}
+.product .prod-data .item-body p i {
+    margin-right: 5px;
+}
+.product .prod-data .item-body p span {
+    text-decoration: underline;
+    font-family: "Montserrat-600";
+}
+.product .prod-data .item-body p span.real-time {
+    text-decoration: none;
+    background: var(--light-orange);
+    color: var(--white);
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.product .prod-data .item-body p span.cat {
+    color: var(--black);
+    text-decoration: none;
+    font-family: "Montserrat-700";
+}
+.product .Static-data ul.cat li {
+    position: relative;
+    font-size: 16px;
+    font-family: "Montserrat-600";
+    padding: 25px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.product .Static-data ul.cat li:first-child {
+    color: var(--light-orange);
+}
+.product .Static-data ul.cat li:first-child::after {
+    width: 100%;
+}
+.product .Static-data ul.cat li:hover {
+    color: var(--light-orange);
+}
+.product .Static-data ul.cat li::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background: var(--light-orange);
+    transition: all 0.3s;
+}
+.product .Static-data ul.cat li:hover::after {
+    width: 100%;
+}
+.product-page .header-data::after {
+    content: "";
+}
+.product .Static-data p {
+    font-size: 16px;
+    color: var(--light-gray);
+    font-family: "Montserrat-400";
+    margin-bottom: 20px;
+    line-height: 1.875;
+}
+.product .Static-data h3 {
+    font-size: 26px;
+    font-family: "Palanquin-700";
+    margin-bottom: 20px;
+}
+.product .Static-data li {
+    font-size: 16px;
+    color: var(--light-gray);
+    font-family: "Montserrat-400";
+    margin-bottom: 10px;
+    line-height: 1.875;
+}

@@ -1,0 +1,29 @@
+@import url(base/base.css);
+
+@import url(vendors/bootstrap.min.css);
+@import url(vendors/all.min.css);
+
+@import url(component/social.css);
+@import url(component/branches.css);
+@import url(component/blog-card.css);
+
+@import url(layout/header.css);
+@import url(layout/home.css);
+@import url(layout/footer.css);
+
+@import url(pages/shop.css);
+@import url(pages/blog.css);
+@import url(pages/accomedation.css);
+@import url(pages/destination.css);
+@import url(pages/our-team.css);
+@import url(pages/product.css);
+@import url(pages/history.css);
+@import url(pages/index.css);
+
+@import url(responsive/header.css);
+@import url(responsive/home.css);
+@import url(responsive/shop.css);
+@import url(responsive/blog.css);
+@import url(responsive/accomedation.css);
+@import url(responsive/destination.css);
+@import url(responsive/index.css);

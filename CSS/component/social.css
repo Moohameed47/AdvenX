@@ -1,0 +1,14 @@
+.social .social-img {
+    position: relative;
+}
+.social .social-img .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--light-orange);
+    opacity: 0;
+}
+.social .social-img:hover .overlay {
+    opacity: 0.6;
+}

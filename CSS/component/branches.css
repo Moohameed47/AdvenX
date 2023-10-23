@@ -1,0 +1,28 @@
+.branches .branch-data {
+    position: relative;
+}
+.branches .branch-data svg {
+    color: var(--light-orange);
+    width: 100px;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    transition: all 0.1s;
+}
+.branches .branch-data:hover svg {
+    color: var(--dark-orange);
+}
+.branches .branch-data h3 {
+    z-index: 1;
+    font-size: 52px;
+    font-family: "Montserrat-700";
+    color: var(--black);
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.branches .branch-data p {
+    font-size: 24px;
+    font-family: "Montserrat-600";
+    text-transform: capitalize;
+    padding-right: 15%;
+}

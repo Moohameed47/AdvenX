@@ -1,0 +1,100 @@
+@import url(fonts.css);
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    object-position: center center;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+* {
+    transition: 0.5s;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --light-orange: #ff9933;
+    --dark-orange: #a2580e;
+    --light-white: #f2efdf;
+    --light-blue: #007c8a;
+    --light-gray: #555555;
+    --light-border: #a5a5a5;
+    --dark-gray: #141414;
+    --border-color: #f2efdf50;
+    --body-color: #fcfaee;
+    --star-icon: #ffc200;
+}
+::-webkit-scrollbar {
+    width: inherit;
+    background: scroll;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: auto;
+    -webkit-border-radius: auto;
+    border-radius: auto;
+    background: var(--light-white);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: auto;
+    border-radius: 50px;
+    background: var(--light-orange);
+    -webkit-box-shadow: auto;
+}
+body {
+    font-family: "Montserrat-400";
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--light-gray);
+}
+@media (max-width: 2560px) {
+    .container {
+        max-width: calc(100% - 40px) !important;
+    }
+}
+.hover-orange {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.hover-orange:hover {
+    color: var(--light-orange) !important;
+}
+.active {
+    color: var(--light-orange) !important;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.py-30 {
+    padding: 30px 0;
+}
+.py-80 {
+    padding: 80px 0;
+}
+.button {
+    background: var(--light-orange);
+    mask-image: url(../../images/btn-path-right.svg);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-image: url(../../images/btn-path-right.svg);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    color: var(--white);
+    padding: 10px 15px;
+    font-size: 12px;
+    font-family: "Montserrat-700", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.button:hover {
+    background: var(--black);
+}

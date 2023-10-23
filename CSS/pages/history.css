@@ -1,0 +1,86 @@
+.testimonial {
+    background-color: var(--light-white);
+    background-image: url(../../images/bg-image-icon-box.png);
+    background-size: cover;
+    background-position: center center;
+}
+.testimonial.our-page {
+    margin-top: 0;
+}
+.our-page .testi::after {
+    content: "";
+}
+.testimonial .img {
+    mask-image: url(../../images/Testimonial-image-01.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-image: url(../../images/Testimonial-image-01.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+.testimonial .img-data {
+    width: 30%;
+    mask-image: url(../../images/Testimonial-image-02.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-image: url(../../images/Testimonial-image-02.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+.testimonial .data h3 {
+    font-size: 37px;
+    font-family: "Montserrat-700";
+    letter-spacing: 1px;
+    color: var(--black);
+}
+.testimonial .data p {
+    font-size: 16px;
+    font-family: "Montserrat-400";
+    color: var(--light-gray);
+    line-height: 1.875;
+    padding: 0 60px;
+}
+.testimonial .data .item-icon i {
+    color: var(--light-orange);
+}
+.testimonial .data h4 {
+    font-size: 20px;
+    color: var(--black);
+    font-family: "Montserrat-700";
+}
+.explore {
+    height: 110vh;
+    background-image: url(../../images/bg-image-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    mask-image: url(../../images/bg-mask-1-2560.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask-image: url(../../images/bg-mask-1-2560.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+.explore::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.explore p {
+    color: var(--white);
+    font-size: 52px;
+    font-family: "Palanquin-500";
+    margin-top: 240px;
+    line-height: 1.3;
+}

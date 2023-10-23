@@ -1,0 +1,94 @@
+.blog-data {
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.blogs {
+    margin: -15px;
+    margin-top: 20px;
+}
+.blog {
+    mask-image: url(../../images/blog-mask-img-1.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-image: url(../../images/blog-mask-img-1.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+.blog-data:hover img {
+    transform: scale(1.1);
+}
+.blog-data .data {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+.blog-data .data .calender {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    background: var(--white);
+    height: 100px;
+    width: 70px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: "Montserrat-400";
+    mask-image: url(../../images/blog-mask.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-image: url(../../images/blog-mask.png);
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+.blog-data .data .calender i {
+    font-size: 40px;
+    display: block;
+    padding-bottom: 5px;
+}
+.blog-data:hover .data .calender {
+    background: var(--light-orange);
+    color: var(--white);
+}
+.blog-data .data .title {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+.blog-data .data .title h4 {
+    width: 80%;
+    font-family: "Montserrat-700";
+    line-height: 1.6;
+    color: var(--white);
+}
+.blog-data .data .title h4:hover {
+    color: var(--light-orange);
+}
+.blog-data .data .title h5 {
+    font-family: "Montserrat-700";
+    line-height: 1.6;
+    color: var(--white);
+    font-size: 16px;
+    text-transform: capitalize;
+    position: relative;
+}
+.blog-data .data .title h5::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 30%;
+    border-bottom: 2px solid var(--white);
+    transition: all 0.5s;
+}
+.blog-data .data .title h5:hover::after {
+    width: 0%;
+}
+.blog-data .data .title h5:hover {
+    color: var(--light-orange);
+}
